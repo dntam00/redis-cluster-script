@@ -1,5 +1,11 @@
 # Redis cluster
 
+## Prerequisite
+
+Install `redis-cli` tool on local machine.
+
+## Example
+
 This repository contains redis script to build, modify a cluster at local machine.
 
 Start a cluster with 3 master shards and each shard has 1 replica node:
