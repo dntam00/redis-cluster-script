@@ -1,0 +1,46 @@
+26132:C 30 Dec 2024 21:50:38.847 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+26134:C 30 Dec 2024 21:50:38.847 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+26132:C 30 Dec 2024 21:50:38.847 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+26134:C 30 Dec 2024 21:50:38.847 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+26132:C 30 Dec 2024 21:50:38.847 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=26132, just started
+26132:C 30 Dec 2024 21:50:38.847 * Configuration loaded
+26134:C 30 Dec 2024 21:50:38.847 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=26134, just started
+26134:C 30 Dec 2024 21:50:38.847 * Configuration loaded
+26132:M 30 Dec 2024 21:50:38.847 * monotonic clock: POSIX clock_gettime
+26134:M 30 Dec 2024 21:50:38.847 * monotonic clock: POSIX clock_gettime
+26132:M 30 Dec 2024 21:50:38.848 * Running mode=cluster, port=7506.
+26134:M 30 Dec 2024 21:50:38.848 * Running mode=cluster, port=7507.
+26134:M 30 Dec 2024 21:50:38.848 * No cluster configuration found, I'm 73e49d3479cefb7df46119724d7f589f611864ac
+26132:M 30 Dec 2024 21:50:38.848 # Sorry, the cluster configuration file nodes.conf is already used by a different Redis Cluster node. Please make sure that different nodes use different cluster configuration files.
+26134:M 30 Dec 2024 21:50:38.858 * Server initialized
+26134:M 30 Dec 2024 21:50:38.858 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+26134:M 30 Dec 2024 21:50:38.864 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+26134:M 30 Dec 2024 21:50:38.864 * Ready to accept connections tcp
+26134:M 30 Dec 2024 22:02:18.938 * IP address for this node updated to 127.0.0.1
+26134:S 30 Dec 2024 22:02:19.824 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+26134:S 30 Dec 2024 22:02:19.825 * Connecting to MASTER 127.0.0.1:7506
+26134:S 30 Dec 2024 22:02:19.825 * MASTER <-> REPLICA sync started
+26134:S 30 Dec 2024 22:02:19.825 * Cluster state changed: ok
+26134:S 30 Dec 2024 22:02:19.826 * Non blocking connect for SYNC fired the event.
+26134:S 30 Dec 2024 22:02:19.827 * Master replied to PING, replication can continue...
+26134:S 30 Dec 2024 22:02:19.827 * Trying a partial resynchronization (request a8d5a934e3e085ea7855ce6d9dc820c42a5a27df:1).
+26134:S 30 Dec 2024 22:02:24.790 * Full resync from master: 8a0e62bf109b5ed59ddeee2dc44c139786b1a39a:15
+26134:S 30 Dec 2024 22:02:24.791 * MASTER <-> REPLICA sync: receiving streamed RDB from master with EOF to disk
+26134:S 30 Dec 2024 22:02:24.794 * Discarding previously cached master state.
+26134:S 30 Dec 2024 22:02:24.795 * MASTER <-> REPLICA sync: Flushing old data
+26134:S 30 Dec 2024 22:02:24.795 * MASTER <-> REPLICA sync: Loading DB in memory
+26134:S 30 Dec 2024 22:02:24.797 * Loading RDB produced by version 7.2.5
+26134:S 30 Dec 2024 22:02:24.797 * RDB age 0 seconds
+26134:S 30 Dec 2024 22:02:24.797 * RDB memory usage when created 1.97 Mb
+26134:S 30 Dec 2024 22:02:24.797 * Done loading RDB, keys loaded: 0, keys expired: 0.
+26134:S 30 Dec 2024 22:02:24.797 * MASTER <-> REPLICA sync: Finished with success
+26134:S 30 Dec 2024 22:02:24.798 * Creating AOF incr file temp-appendonly.aof.incr on background rewrite
+26134:S 30 Dec 2024 22:02:24.799 * Background append only file rewriting started by pid 27738
+27738:C 30 Dec 2024 22:02:24.800 * Successfully created the temporary AOF base file temp-rewriteaof-bg-27738.aof
+27738:C 30 Dec 2024 22:02:24.800 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+26134:S 30 Dec 2024 22:02:24.900 * Background AOF rewrite terminated with success
+26134:S 30 Dec 2024 22:02:24.900 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-27738.aof into appendonly.aof.2.base.rdb
+26134:S 30 Dec 2024 22:02:24.901 * Successfully renamed the temporary AOF incr file temp-appendonly.aof.incr into appendonly.aof.2.incr.aof
+26134:S 30 Dec 2024 22:02:24.907 * Removing the history file appendonly.aof.1.incr.aof in the background
+26134:S 30 Dec 2024 22:02:24.907 * Removing the history file appendonly.aof.1.base.rdb in the background
+26134:S 30 Dec 2024 22:02:24.915 * Background AOF rewrite finished successfully
