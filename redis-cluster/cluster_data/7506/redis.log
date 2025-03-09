@@ -1,0 +1,271 @@
+28288:C 13 Jan 2025 11:04:32.747 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+28288:C 13 Jan 2025 11:04:32.747 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+28288:C 13 Jan 2025 11:04:32.747 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=28288, just started
+28288:C 13 Jan 2025 11:04:32.747 * Configuration loaded
+28288:M 13 Jan 2025 11:04:32.747 * monotonic clock: POSIX clock_gettime
+28288:M 13 Jan 2025 11:04:32.747 * Running mode=cluster, port=7506.
+28288:M 13 Jan 2025 11:04:32.747 * No cluster configuration found, I'm 743498e9b2df308b33f372d7d6b9a444d37d7c68
+28288:M 13 Jan 2025 11:04:32.757 * Server initialized
+28288:M 13 Jan 2025 11:04:32.757 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+28288:M 13 Jan 2025 11:04:32.771 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+28288:M 13 Jan 2025 11:04:32.771 * Ready to accept connections tcp
+28288:M 13 Jan 2025 11:04:33.880 * IP address for this node updated to 127.0.0.1
+28288:M 13 Jan 2025 11:04:34.789 * Cluster state changed: ok
+28288:M 13 Jan 2025 11:04:43.057 * 1 changes in 10 seconds. Saving...
+28288:M 13 Jan 2025 11:04:43.057 * Background saving started by pid 28356
+28356:C 13 Jan 2025 11:04:43.061 * DB saved on disk
+28356:C 13 Jan 2025 11:04:43.062 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+28288:M 13 Jan 2025 11:04:43.159 * Background saving terminated with success
+28288:M 13 Jan 2025 11:06:09.824 * New configEpoch set to 9
+28288:M 13 Jan 2025 11:06:09.824 * configEpoch updated after importing slot 0
+28288:M 13 Jan 2025 11:08:41.029 * 1 changes in 10 seconds. Saving...
+28288:M 13 Jan 2025 11:08:41.032 * Background saving started by pid 30144
+30144:C 13 Jan 2025 11:08:41.040 * DB saved on disk
+30144:C 13 Jan 2025 11:08:41.041 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+28288:M 13 Jan 2025 11:08:41.133 * Background saving terminated with success
+28288:M 13 Jan 2025 11:08:52.031 * 1 changes in 10 seconds. Saving...
+28288:M 13 Jan 2025 11:08:52.032 * Background saving started by pid 30291
+30291:C 13 Jan 2025 11:08:52.041 * DB saved on disk
+30291:C 13 Jan 2025 11:08:52.042 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+28288:M 13 Jan 2025 11:08:52.133 * Background saving terminated with success
+28288:M 13 Jan 2025 11:15:34.404 * 1 changes in 10 seconds. Saving...
+28288:M 13 Jan 2025 11:15:34.410 * Background saving started by pid 33801
+33801:C 13 Jan 2025 11:15:34.453 * DB saved on disk
+33801:C 13 Jan 2025 11:15:34.475 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+28288:M 13 Jan 2025 11:15:34.514 * Background saving terminated with success
+28288:M 13 Jan 2025 11:15:45.094 * 1 changes in 10 seconds. Saving...
+28288:M 13 Jan 2025 11:15:45.098 * Background saving started by pid 33877
+33877:C 13 Jan 2025 11:15:45.118 * DB saved on disk
+33877:C 13 Jan 2025 11:15:45.125 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+28288:M 13 Jan 2025 11:15:45.199 * Background saving terminated with success
+28288:M 13 Jan 2025 11:15:56.089 * 1 changes in 10 seconds. Saving...
+28288:M 13 Jan 2025 11:15:56.090 * Background saving started by pid 33955
+33955:C 13 Jan 2025 11:15:56.108 * DB saved on disk
+33955:C 13 Jan 2025 11:15:56.108 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+28288:M 13 Jan 2025 11:15:56.191 * Background saving terminated with success
+28288:M 13 Jan 2025 11:16:34.195 * 1 changes in 10 seconds. Saving...
+28288:M 13 Jan 2025 11:16:34.198 * Background saving started by pid 34208
+34208:C 13 Jan 2025 11:16:34.205 * DB saved on disk
+34208:C 13 Jan 2025 11:16:34.208 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+28288:M 13 Jan 2025 11:16:34.301 * Background saving terminated with success
+28288:M 13 Jan 2025 11:16:45.076 * 1 changes in 10 seconds. Saving...
+28288:M 13 Jan 2025 11:16:45.079 * Background saving started by pid 34271
+34271:C 13 Jan 2025 11:16:45.089 * DB saved on disk
+34271:C 13 Jan 2025 11:16:45.090 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+28288:M 13 Jan 2025 11:16:45.184 * Background saving terminated with success
+28288:signal-handler (1736741816) Received SIGINT scheduling shutdown...
+28288:M 13 Jan 2025 11:16:56.188 * User requested shutdown...
+28288:M 13 Jan 2025 11:16:56.188 * Calling fsync() on the AOF file.
+28288:signal-handler (1736741816) Received SIGTERM scheduling shutdown...
+28288:M 13 Jan 2025 11:16:56.192 * Saving the final RDB snapshot before exiting.
+28288:M 13 Jan 2025 11:16:56.195 * DB saved on disk
+28288:M 13 Jan 2025 11:16:56.195 # Redis is now ready to exit, bye bye...
+34541:C 13 Jan 2025 11:17:11.854 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+34541:C 13 Jan 2025 11:17:11.855 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+34541:C 13 Jan 2025 11:17:11.855 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=34541, just started
+34541:C 13 Jan 2025 11:17:11.855 * Configuration loaded
+34541:M 13 Jan 2025 11:17:11.855 * monotonic clock: POSIX clock_gettime
+34541:M 13 Jan 2025 11:17:11.856 * Running mode=cluster, port=7506.
+34541:M 13 Jan 2025 11:17:11.856 * Node configuration loaded, I'm 743498e9b2df308b33f372d7d6b9a444d37d7c68
+34541:M 13 Jan 2025 11:17:11.856 * Server initialized
+34541:M 13 Jan 2025 11:17:11.857 * Reading RDB base file on AOF loading...
+34541:M 13 Jan 2025 11:17:11.857 * Loading RDB produced by version 7.2.5
+34541:M 13 Jan 2025 11:17:11.857 * RDB age 759 seconds
+34541:M 13 Jan 2025 11:17:11.857 * RDB memory usage when created 1.70 Mb
+34541:M 13 Jan 2025 11:17:11.857 * RDB is base AOF
+34541:M 13 Jan 2025 11:17:11.857 * Done loading RDB, keys loaded: 0, keys expired: 0.
+34541:M 13 Jan 2025 11:17:11.857 * DB loaded from base file appendonly.aof.1.base.rdb: 0.000 seconds
+34541:M 13 Jan 2025 11:17:11.860 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.003 seconds
+34541:M 13 Jan 2025 11:17:11.860 * DB loaded from append only file: 0.003 seconds
+34541:M 13 Jan 2025 11:17:11.860 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+34541:M 13 Jan 2025 11:17:11.860 * Ready to accept connections tcp
+34541:M 13 Jan 2025 11:17:13.877 * Cluster state changed: ok
+34541:M 13 Jan 2025 11:17:22.049 * 1 changes in 10 seconds. Saving...
+34541:M 13 Jan 2025 11:17:22.052 * Background saving started by pid 34621
+34621:C 13 Jan 2025 11:17:22.184 * DB saved on disk
+34621:C 13 Jan 2025 11:17:22.186 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+34541:M 13 Jan 2025 11:17:22.255 * Background saving terminated with success
+34541:M 13 Jan 2025 11:18:27.494 * 1 changes in 10 seconds. Saving...
+34541:M 13 Jan 2025 11:18:27.496 * Background saving started by pid 35121
+35121:C 13 Jan 2025 11:18:27.524 * DB saved on disk
+35121:C 13 Jan 2025 11:18:27.524 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+34541:M 13 Jan 2025 11:18:27.597 * Background saving terminated with success
+34541:M 13 Jan 2025 11:18:38.076 * 1 changes in 10 seconds. Saving...
+34541:M 13 Jan 2025 11:18:38.081 * Background saving started by pid 35186
+35186:C 13 Jan 2025 11:18:38.086 * DB saved on disk
+35186:C 13 Jan 2025 11:18:38.088 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+34541:M 13 Jan 2025 11:18:38.183 * Background saving terminated with success
+34541:signal-handler (1736741920) Received SIGINT scheduling shutdown...
+34541:signal-handler (1736741920) Received SIGTERM scheduling shutdown...
+34541:M 13 Jan 2025 11:18:40.605 * User requested shutdown...
+34541:M 13 Jan 2025 11:18:40.605 * Calling fsync() on the AOF file.
+34541:M 13 Jan 2025 11:18:40.608 * Saving the final RDB snapshot before exiting.
+34541:M 13 Jan 2025 11:18:40.610 * DB saved on disk
+34541:M 13 Jan 2025 11:18:40.611 # Redis is now ready to exit, bye bye...
+35581:C 13 Jan 2025 11:19:24.651 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+35581:C 13 Jan 2025 11:19:24.653 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+35581:C 13 Jan 2025 11:19:24.653 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=35581, just started
+35581:C 13 Jan 2025 11:19:24.653 * Configuration loaded
+35581:M 13 Jan 2025 11:19:24.653 * monotonic clock: POSIX clock_gettime
+35581:M 13 Jan 2025 11:19:24.653 * Running mode=cluster, port=7506.
+35581:M 13 Jan 2025 11:19:24.660 * Node configuration loaded, I'm 743498e9b2df308b33f372d7d6b9a444d37d7c68
+35581:M 13 Jan 2025 11:19:24.661 * Server initialized
+35581:M 13 Jan 2025 11:19:24.674 * Reading RDB base file on AOF loading...
+35581:M 13 Jan 2025 11:19:24.674 * Loading RDB produced by version 7.2.5
+35581:M 13 Jan 2025 11:19:24.674 * RDB age 892 seconds
+35581:M 13 Jan 2025 11:19:24.674 * RDB memory usage when created 1.70 Mb
+35581:M 13 Jan 2025 11:19:24.674 * RDB is base AOF
+35581:M 13 Jan 2025 11:19:24.674 * Done loading RDB, keys loaded: 0, keys expired: 0.
+35581:M 13 Jan 2025 11:19:24.675 * DB loaded from base file appendonly.aof.1.base.rdb: 0.007 seconds
+35581:M 13 Jan 2025 11:19:24.706 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.031 seconds
+35581:M 13 Jan 2025 11:19:24.706 * DB loaded from append only file: 0.039 seconds
+35581:M 13 Jan 2025 11:19:24.725 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+35581:M 13 Jan 2025 11:19:24.725 * Ready to accept connections tcp
+35581:M 13 Jan 2025 11:19:26.743 * Cluster state changed: ok
+35581:M 13 Jan 2025 11:19:35.023 * 1 changes in 10 seconds. Saving...
+35581:M 13 Jan 2025 11:19:35.026 * Background saving started by pid 35670
+35670:C 13 Jan 2025 11:19:35.031 * DB saved on disk
+35670:C 13 Jan 2025 11:19:35.032 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+35581:M 13 Jan 2025 11:19:35.128 * Background saving terminated with success
+35581:M 13 Jan 2025 11:20:13.571 * 1 changes in 10 seconds. Saving...
+35581:M 13 Jan 2025 11:20:13.572 * Background saving started by pid 36159
+36159:C 13 Jan 2025 11:20:13.577 * DB saved on disk
+36159:C 13 Jan 2025 11:20:13.578 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+35581:M 13 Jan 2025 11:20:13.673 * Background saving terminated with success
+35581:M 13 Jan 2025 11:20:24.046 * 1 changes in 10 seconds. Saving...
+35581:M 13 Jan 2025 11:20:24.056 * Background saving started by pid 36371
+36371:C 13 Jan 2025 11:20:24.071 * DB saved on disk
+36371:C 13 Jan 2025 11:20:24.071 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+35581:M 13 Jan 2025 11:20:24.164 * Background saving terminated with success
+35581:M 13 Jan 2025 11:20:35.075 * 1 changes in 10 seconds. Saving...
+35581:M 13 Jan 2025 11:20:35.079 * Background saving started by pid 36510
+36510:C 13 Jan 2025 11:20:35.121 * DB saved on disk
+36510:C 13 Jan 2025 11:20:35.124 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+35581:M 13 Jan 2025 11:20:35.198 * Background saving terminated with success
+35581:M 13 Jan 2025 11:20:46.090 * 1 changes in 10 seconds. Saving...
+35581:M 13 Jan 2025 11:20:46.091 * Background saving started by pid 36658
+36658:C 13 Jan 2025 11:20:46.097 * DB saved on disk
+36658:C 13 Jan 2025 11:20:46.098 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+35581:M 13 Jan 2025 11:20:46.193 * Background saving terminated with success
+35581:signal-handler (1736742047) Received SIGINT scheduling shutdown...
+35581:signal-handler (1736742047) Received SIGTERM scheduling shutdown...
+35581:M 13 Jan 2025 11:20:47.908 * User requested shutdown...
+35581:M 13 Jan 2025 11:20:47.909 * Calling fsync() on the AOF file.
+35581:M 13 Jan 2025 11:20:47.938 * Saving the final RDB snapshot before exiting.
+35581:M 13 Jan 2025 11:20:47.956 * DB saved on disk
+35581:M 13 Jan 2025 11:20:47.956 # Redis is now ready to exit, bye bye...
+36839:C 13 Jan 2025 11:21:01.265 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+36839:C 13 Jan 2025 11:21:01.265 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+36839:C 13 Jan 2025 11:21:01.265 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=36839, just started
+36839:C 13 Jan 2025 11:21:01.265 * Configuration loaded
+36839:M 13 Jan 2025 11:21:01.265 * monotonic clock: POSIX clock_gettime
+36839:M 13 Jan 2025 11:21:01.265 * Running mode=cluster, port=7506.
+36839:M 13 Jan 2025 11:21:01.266 * Node configuration loaded, I'm 743498e9b2df308b33f372d7d6b9a444d37d7c68
+36839:M 13 Jan 2025 11:21:01.266 * Server initialized
+36839:M 13 Jan 2025 11:21:01.267 * Reading RDB base file on AOF loading...
+36839:M 13 Jan 2025 11:21:01.267 * Loading RDB produced by version 7.2.5
+36839:M 13 Jan 2025 11:21:01.267 * RDB age 989 seconds
+36839:M 13 Jan 2025 11:21:01.267 * RDB memory usage when created 1.70 Mb
+36839:M 13 Jan 2025 11:21:01.267 * RDB is base AOF
+36839:M 13 Jan 2025 11:21:01.267 * Done loading RDB, keys loaded: 0, keys expired: 0.
+36839:M 13 Jan 2025 11:21:01.267 * DB loaded from base file appendonly.aof.1.base.rdb: 0.000 seconds
+36839:M 13 Jan 2025 11:21:01.273 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.006 seconds
+36839:M 13 Jan 2025 11:21:01.273 * DB loaded from append only file: 0.006 seconds
+36839:M 13 Jan 2025 11:21:01.274 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+36839:M 13 Jan 2025 11:21:01.274 * Ready to accept connections tcp
+36839:M 13 Jan 2025 11:21:03.292 * Cluster state changed: ok
+36839:M 13 Jan 2025 11:21:12.070 * 1 changes in 10 seconds. Saving...
+36839:M 13 Jan 2025 11:21:12.070 * Background saving started by pid 36911
+36911:C 13 Jan 2025 11:21:12.074 * DB saved on disk
+36911:C 13 Jan 2025 11:21:12.076 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+36839:M 13 Jan 2025 11:21:12.171 * Background saving terminated with success
+36839:M 13 Jan 2025 11:22:11.663 * 1 changes in 10 seconds. Saving...
+36839:M 13 Jan 2025 11:22:11.665 * Background saving started by pid 37526
+37526:C 13 Jan 2025 11:22:11.671 * DB saved on disk
+37526:C 13 Jan 2025 11:22:11.673 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+36839:M 13 Jan 2025 11:22:11.766 * Background saving terminated with success
+36839:M 13 Jan 2025 11:22:22.059 * 1 changes in 10 seconds. Saving...
+36839:M 13 Jan 2025 11:22:22.061 * Background saving started by pid 37597
+37597:C 13 Jan 2025 11:22:22.076 * DB saved on disk
+37597:C 13 Jan 2025 11:22:22.077 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+36839:M 13 Jan 2025 11:22:22.162 * Background saving terminated with success
+36839:signal-handler (1736742155) Received SIGINT scheduling shutdown...
+36839:signal-handler (1736742155) Received SIGTERM scheduling shutdown...
+36839:M 13 Jan 2025 11:22:35.074 * User requested shutdown...
+36839:M 13 Jan 2025 11:22:35.074 * Calling fsync() on the AOF file.
+36839:M 13 Jan 2025 11:22:35.077 * Saving the final RDB snapshot before exiting.
+36839:M 13 Jan 2025 11:22:35.078 * DB saved on disk
+36839:M 13 Jan 2025 11:22:35.078 # Redis is now ready to exit, bye bye...
+37849:C 13 Jan 2025 11:22:41.281 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+37849:C 13 Jan 2025 11:22:41.281 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+37849:C 13 Jan 2025 11:22:41.282 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=37849, just started
+37849:C 13 Jan 2025 11:22:41.282 * Configuration loaded
+37849:M 13 Jan 2025 11:22:41.283 * monotonic clock: POSIX clock_gettime
+37849:M 13 Jan 2025 11:22:41.283 * Running mode=cluster, port=7506.
+37849:M 13 Jan 2025 11:22:41.284 * Node configuration loaded, I'm 743498e9b2df308b33f372d7d6b9a444d37d7c68
+37849:M 13 Jan 2025 11:22:41.285 * Server initialized
+37849:M 13 Jan 2025 11:22:41.286 * Reading RDB base file on AOF loading...
+37849:M 13 Jan 2025 11:22:41.286 * Loading RDB produced by version 7.2.5
+37849:M 13 Jan 2025 11:22:41.286 * RDB age 1089 seconds
+37849:M 13 Jan 2025 11:22:41.286 * RDB memory usage when created 1.70 Mb
+37849:M 13 Jan 2025 11:22:41.286 * RDB is base AOF
+37849:M 13 Jan 2025 11:22:41.286 * Done loading RDB, keys loaded: 0, keys expired: 0.
+37849:M 13 Jan 2025 11:22:41.286 * DB loaded from base file appendonly.aof.1.base.rdb: 0.001 seconds
+37849:M 13 Jan 2025 11:22:41.290 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.004 seconds
+37849:M 13 Jan 2025 11:22:41.291 * DB loaded from append only file: 0.005 seconds
+37849:M 13 Jan 2025 11:22:41.291 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+37849:M 13 Jan 2025 11:22:41.291 * Ready to accept connections tcp
+37849:M 13 Jan 2025 11:22:43.308 * Cluster state changed: ok
+37849:M 13 Jan 2025 11:22:52.086 * 1 changes in 10 seconds. Saving...
+37849:M 13 Jan 2025 11:22:52.088 * Background saving started by pid 37959
+37959:C 13 Jan 2025 11:22:52.093 * DB saved on disk
+37959:C 13 Jan 2025 11:22:52.094 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+37849:M 13 Jan 2025 11:22:52.189 * Background saving terminated with success
+37849:M 13 Jan 2025 11:24:44.622 * 1 changes in 10 seconds. Saving...
+37849:M 13 Jan 2025 11:24:44.624 * Background saving started by pid 38994
+38994:C 13 Jan 2025 11:24:44.628 * DB saved on disk
+38994:C 13 Jan 2025 11:24:44.629 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+37849:M 13 Jan 2025 11:24:44.724 * Background saving terminated with success
+37849:M 13 Jan 2025 11:24:55.004 * 1 changes in 10 seconds. Saving...
+37849:M 13 Jan 2025 11:24:55.005 * Background saving started by pid 39062
+39062:C 13 Jan 2025 11:24:55.027 * DB saved on disk
+39062:C 13 Jan 2025 11:24:55.028 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+37849:M 13 Jan 2025 11:24:55.106 * Background saving terminated with success
+37849:signal-handler (1736742306) Received SIGINT scheduling shutdown...
+37849:signal-handler (1736742306) Received SIGTERM scheduling shutdown...
+37849:M 13 Jan 2025 11:25:06.406 * User requested shutdown...
+37849:M 13 Jan 2025 11:25:06.407 * Calling fsync() on the AOF file.
+37849:M 13 Jan 2025 11:25:06.409 * Saving the final RDB snapshot before exiting.
+37849:M 13 Jan 2025 11:25:06.413 * DB saved on disk
+37849:M 13 Jan 2025 11:25:06.413 # Redis is now ready to exit, bye bye...
+39347:C 13 Jan 2025 11:25:15.345 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+39347:C 13 Jan 2025 11:25:15.345 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+39347:C 13 Jan 2025 11:25:15.345 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=39347, just started
+39347:C 13 Jan 2025 11:25:15.345 * Configuration loaded
+39347:M 13 Jan 2025 11:25:15.345 * monotonic clock: POSIX clock_gettime
+39347:M 13 Jan 2025 11:25:15.345 * Running mode=cluster, port=7506.
+39347:M 13 Jan 2025 11:25:15.346 * Node configuration loaded, I'm 743498e9b2df308b33f372d7d6b9a444d37d7c68
+39347:M 13 Jan 2025 11:25:15.346 * Server initialized
+39347:M 13 Jan 2025 11:25:15.347 * Reading RDB base file on AOF loading...
+39347:M 13 Jan 2025 11:25:15.347 * Loading RDB produced by version 7.2.5
+39347:M 13 Jan 2025 11:25:15.347 * RDB age 1243 seconds
+39347:M 13 Jan 2025 11:25:15.347 * RDB memory usage when created 1.70 Mb
+39347:M 13 Jan 2025 11:25:15.347 * RDB is base AOF
+39347:M 13 Jan 2025 11:25:15.347 * Done loading RDB, keys loaded: 0, keys expired: 0.
+39347:M 13 Jan 2025 11:25:15.347 * DB loaded from base file appendonly.aof.1.base.rdb: 0.000 seconds
+39347:M 13 Jan 2025 11:25:15.353 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.006 seconds
+39347:M 13 Jan 2025 11:25:15.353 * DB loaded from append only file: 0.006 seconds
+39347:M 13 Jan 2025 11:25:15.353 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+39347:M 13 Jan 2025 11:25:15.353 * Ready to accept connections tcp
+39347:M 13 Jan 2025 11:25:17.373 * Cluster state changed: ok
+39347:M 13 Jan 2025 11:25:26.052 * 1 changes in 10 seconds. Saving...
+39347:M 13 Jan 2025 11:25:26.053 * Background saving started by pid 39505
+39505:C 13 Jan 2025 11:25:26.059 * DB saved on disk
+39505:C 13 Jan 2025 11:25:26.060 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+39347:M 13 Jan 2025 11:25:26.154 * Background saving terminated with success
+39347:signal-handler (1737646484) Received SIGTERM scheduling shutdown...
+39347:M 23 Jan 2025 22:34:44.192 * User requested shutdown...
+39347:M 23 Jan 2025 22:34:44.192 * Calling fsync() on the AOF file.
+39347:M 23 Jan 2025 22:34:44.196 * Saving the final RDB snapshot before exiting.
+39347:M 23 Jan 2025 22:34:44.205 * DB saved on disk
+39347:M 23 Jan 2025 22:34:44.205 # Redis is now ready to exit, bye bye...
